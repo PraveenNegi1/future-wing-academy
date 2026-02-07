@@ -32,7 +32,7 @@ export default function WhoWeAre() {
             </h2>
 
             <p className="mb-8 text-gray-600 leading-relaxed text-center md:text-left max-w-md md:max-w-none">
-              Future Wings Aviation Academy is a Dehradun-based pilot preparation
+              Future Wings Aviation Academy is a commercial Dehradun-based pilot preparation
               and mentorship institute dedicated to guiding aspiring pilots with
               clarity, discipline, and the right foundation. We focus on
               structured preparation, informed decision-making, and personalised
@@ -53,7 +53,7 @@ export default function WhoWeAre() {
             {/* STATS */}
             <div className="grid grid-cols-2 gap-6 md:grid-cols-4 text-center md:text-left">
               <div>
-                <h3 className="text-3xl font-bold text-sky-500">8+</h3>
+                <h3 className="text-3xl font-bold text-sky-500">5+</h3>
                 <p className="text-sm text-gray-600">Year Industry Experience</p>
               </div>
 
