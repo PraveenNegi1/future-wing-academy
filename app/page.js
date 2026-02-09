@@ -1,5 +1,6 @@
 import FAQs from "@/components/FAQSection";
 import Hero from "@/components/Hero";
+import PilotJourneyForm from "@/components/PilotJourneyForm";
 import Testimonials from "@/components/Testimonials";
 import TrainingProgrammes from "@/components/TrainingProgrammes";
 import WhoIsThisCourseFor from "@/components/WhoIsThisCourseFor";
@@ -11,6 +12,9 @@ export default function Home() {
   return (
   <>
   <Hero />
+  <div className="md:hidden block">
+    <PilotJourneyForm />
+  </div>
   <WhyChooseUs />
   <WhoWeAre />
   <TrainingProgrammes />
