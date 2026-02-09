@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { IoCallOutline } from "react-icons/io5";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,13 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
+        <div className="z-50 absolute">
+          <a href="tel:8679234969">
+            <div className="fixed bottom-18 md:bottom-24 left-4 md:w-16 w-12 md:h-16 h-12 bg-[#02618f] flex justify-center items-center rounded-full">
+              <IoCallOutline className="md:w-8 w-5 md:h-8 h-5 text-white" />
+            </div>
+          </a>
+        </div>
         <Footer />
       </body>
     </html>
