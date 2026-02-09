@@ -12,7 +12,7 @@ export default function AboutUs() {
         <div className="relative hidden md:block">
           <div className=" overflow-hidden">
             <Image
-              src="/about.png"
+              src="/about us image.png"
               alt="Pilots in cockpit"
               width={700}
               height={500}

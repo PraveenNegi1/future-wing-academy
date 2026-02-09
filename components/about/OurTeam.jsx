@@ -13,7 +13,7 @@ export default function OurTeam() {
           <div className="rounded-full p-4 md:p-6  md:block hidden">
             <div className="relative w-52 h-52 md:w-96 md:h-96 rounded-full overflow-hidden">
               <Image
-                src="/ourteam.png"
+                src="/Our Team image.png"
                 alt="Captain Rohit"
                 fill
                 className="object-cover"
@@ -34,10 +34,10 @@ export default function OurTeam() {
             Driven by Mentorship.
           </h2>
           <div className="flex justify-center md:justify-start md:items-start">
-            <div className="rounded-full p-4 md:p-6 bg-[#163B63] md:hidden block">
+            <div className="rounded-full p-4 md:p-6  md:hidden block">
               <div className="relative w-52 h-52 md:w-96 md:h-96 rounded-full overflow-hidden">
                 <Image
-                  src="/ourteam.png"
+                  src="/Our Team image.png"
                   alt="Captain Rohit"
                   fill
                   className="object-cover"
