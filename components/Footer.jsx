@@ -12,7 +12,6 @@ export default function Footer() {
     <>
       <footer className="w-full bg-white border-t border-gray-500 md:px-10 px-5 py-14">
         <div className="max-w-7xl flex justify-between">
-          
           {/* LEFT SECTION */}
           <div className="max-w-md">
             <div className="flex gap-12">
@@ -99,9 +98,19 @@ export default function Footer() {
             </p>
 
             <p className="mt-4 font-semibold text-[18px] text-[#163660]">
-              Phone no.
+              Phone No.
             </p>
-            <p>+91-8679234969</p>
+
+            {["+91-8679234969", "+91-8679181254", "+91-8679189147"].map(
+              (phone, index) => (
+                <span key={index} className="block">
+                  <span className="sm:hidden">
+                    <a href={`tel:${phone.replace(/[^0-9+]/g, "")}`}>{phone}</a>
+                  </span>
+                  <span className="hidden sm:block">{phone}</span>
+                </span>
+              ),
+            )}
           </div>
         </div>
 
@@ -119,10 +128,7 @@ export default function Footer() {
       </footer>
 
       {/* CONTACT POPUP */}
-      <ContactPopup
-        isOpen={isPopupOpen}
-        onClose={() => setPopupOpen(false)}
-      />
+      <ContactPopup isOpen={isPopupOpen} onClose={() => setPopupOpen(false)} />
     </>
   );
 }
