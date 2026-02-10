@@ -122,9 +122,7 @@ export default function TrainingProgrammes() {
                     />
                   </div>
 
-                  <h3 className="mb-4 text-lg font-semibold">
-                    {course.title}
-                  </h3>
+                  <h3 className="mb-4 text-lg font-semibold">{course.title}</h3>
 
                   <ul className="space-y-2 text-sm text-blue-100">
                     {course.points.map((point, idx) => (
@@ -179,8 +177,6 @@ export default function TrainingProgrammes() {
             </div>
           ))}
         </div>
-
-       
       </div>
     </section>
   );
