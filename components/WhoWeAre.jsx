@@ -40,7 +40,6 @@ export default function WhoWeAre() {
               professional flight training.
             </p>
 
-            {/* MOBILE IMAGE */}
             <div className="overflow-hidden rounded-2xl md:hidden mb-8">
               <Image
                 src="/Pilots.png"
