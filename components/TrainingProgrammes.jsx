@@ -112,7 +112,7 @@ export default function TrainingProgrammes() {
           >
             {courses.map((course, index) => (
               <SwiperSlide key={index}>
-                <div className="h-[350px] rounded-2xl bg-[#183961] p-8 text-white">
+                <div className="h-87.5 rounded-2xl bg-[#183961] p-8 text-white">
                   <div className="mb-4">
                     <Image
                       src={course.icon}
