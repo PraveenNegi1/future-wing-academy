@@ -86,7 +86,6 @@ export default function TrainingProgrammes() {
   return (
     <section className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-6">
-        {/* HEADER */}
         <div className="mb-16 text-center">
           <p className="mb-2 text-[18px] font-bold text-[#104E7E]">Courses</p>
           <h2 className="mb-4 text-[24px] font-bold text-gray-800 md:text-4xl">
