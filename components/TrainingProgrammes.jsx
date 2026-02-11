@@ -137,7 +137,6 @@ export default function TrainingProgrammes() {
             ))}
           </Swiper>
 
-          {/* MOBILE NAVIGATION BUTTONS */}
           <div className="mt-6 flex justify-center gap-6">
             <button className="swiper-prev flex h-10 w-10 items-center justify-center rounded-full border border-gray-300 text-gray-700">
               ←
