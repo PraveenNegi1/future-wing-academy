@@ -147,7 +147,6 @@ export default function TrainingProgrammes() {
           </div>
         </div>
 
-        {/* 🔹 DESKTOP GRID (UNCHANGED) */}
         <div className="hidden gap-8 md:grid md:grid-cols-2 lg:grid-cols-3">
           {courses.map((course, index) => (
             <div
